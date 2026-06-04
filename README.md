@@ -48,8 +48,6 @@ NEXTAUTH_URL=https://your-deployment-url/api/auth
 NEXTAUTH_SECRET=your_nextauth_secret
 ```
 
-> ⚠️ Never commit your `.env` file. Make sure `.env` is listed in your `.gitignore`.
-
 ## Tech Stack
 
 - **Framework:** Next.js
