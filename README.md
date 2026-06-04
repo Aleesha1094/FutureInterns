@@ -20,6 +20,17 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Environment Variables
+
+Create a `.env` file in the root of your project and add the following:
+
+```env
+MONGODB_URL=mongodb+srv://<username>:<password>@cluster0.ywrv0or.mongodb.net/<db_name>
+SENDGRID_API_KEY=your_sendgrid_api_key
+NEXTAUTH_URL=https://your-deployment-url/api/auth
+NEXTAUTH_SECRET=your_nextauth_secret
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
